@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: lightgray;
 }
 
 /* style for banner */
@@ -39,3 +40,24 @@ body {
 }
 
 /* style for banner end */
+
+/* style for player profile start  */
+.container {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player-profile {
+  width: 330px;
+  height: 474px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-left: 170px;
+}
+
+.player-profile img {
+  width: 300px;
+  height: 256px;
+}
+/* style for player profile end  */
