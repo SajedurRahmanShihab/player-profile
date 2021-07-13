@@ -1,0 +1,41 @@
+/* base style */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* style for banner */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #2d25a0;
+  height: 677px;
+  padding-left: 150px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width h1 {
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.half-width button {
+  background-color: #e02c6d;
+  color: white;
+  width: 168px;
+  height: 44px;
+}
+
+.half-width img {
+  width: 556px;
+  height: 438px;
+  left: 1299px;
+  top: 153px;
+}
+
+/* style for banner end */
