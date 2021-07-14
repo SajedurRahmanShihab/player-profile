@@ -61,3 +61,29 @@ body {
   height: 256px;
 }
 /* style for player profile end  */
+
+/* style for logo start */
+.logo {
+  margin-top: 80px;
+  text-align: center;
+}
+.logo img {
+  width: 480px;
+  height: 110px;
+}
+/* style for logo end */
+.social-site {
+  margin-top: 25px;
+}
+
+.fab {
+  padding: 7px;
+  width: 32px;
+  height: 32px;
+  background-color: #969bab;
+  border-radius: 10px;
+}
+
+.copyright {
+  font-size: 18px;
+}
