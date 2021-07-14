@@ -92,9 +92,12 @@ body {
   width: 32px;
   height: 32px;
   background-color: #969bab;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
-.copyright {
-  font-size: 18px;
+/* media query */
+@media all and (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+  }
 }
